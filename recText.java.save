@@ -1,0 +1,16 @@
+public class 
+{
+	public void recTest(int i) 
+	{ 
+		if(i > 1) 
+		{
+			recTest(i - 1);
+			System.out.printf("%i %n",i);
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		recTest(5);
+	}
+}
